@@ -1,6 +1,6 @@
 # PEmasarMUDA-1
 Kelompok 1 WebDev B
-Tema: PElatihan Intensif Pemasaran Digital bagi Mahasiswa
+Tema: PElatihan Intensif Pemasaran Digital bagi Mahasiswa 
 Nama Kelompok 
   1. Maria Gisella Maheswari Liberty 1710625030 CEO
   2. Zaida Firdaus 1710625014 UI/UX
