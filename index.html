@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PEmasarMUDA - Pelatihan Pemasaran Digital Mahasiswa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- CEO: header -->
+  <header id="header-section" data-role="CEO">
+    <h2 class="brand"><span class="biru">PE</span><span class="navy">masar</span><span class="biru">MUDA</span></h2>
+    <nav>
+      <a href="#hero-section">Beranda</a>
+      <a href="#catalog-section">Katalog</a>
+      <a href="#calc-section">Kalkulator</a>
+      <a href="#calc-section" class="btn-daftar">Daftar Sekarang</a>
+    </nav>
+  </header>
+
+  <!-- PM 1: hero -->
+  <section id="hero-section" data-role="PM">
+    <h1>Jago Pemasaran Digital Sebelum Lulus</h1>
+    <p class="tagline">Mengembangkan Talenta Pemasaran Digital Generasi Muda</p>
+    <p>Pelatihan intensif pemasaran digital khusus mahasiswa. Belajar langsung praktik, siap dipakai buat magang, usaha, atau kerja.</p>
+    <ul>
+      <li>Materi praktis dan langsung dipraktikkan</li>
+      <li>Harga ramah kantong mahasiswa</li>
+      <li>Diskon untuk pendaftaran kolektif</li>
+    </ul>
+    <a href="#calc-section" class="btn">Hitung Biaya Sekarang</a>
+  </section>
+
+  <!-- PM 2: katalog -->
+  <section id="catalog-section" data-role="PM">
+    <h2>Katalog Kelas</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Kelas Penulisan Iklan</h3>
+        <p>Belajar bikin copywriting yang menarik untuk Instagram, TikTok, dan marketplace.</p>
+        <p class="price">Rp125.000 / peserta</p>
+        <p class="promo">Pakai kode MAHASISWA10 diskon 10%</p>
+      </div>
+      <div class="card">
+        <h3>Kelas Optimasi Web</h3>
+        <p>Belajar dasar SEO dan optimasi website supaya gampang ditemukan di Google.</p>
+        <p class="price">Rp175.000 / peserta</p>
+        <p class="promo">Pakai kode MAHASISWA10 diskon 10%</p>
+      </div>
+      <div class="card">
+        <h3>Kelas Pemasar Digital Lengkap</h3>
+        <p>Paket komplit: iklan, SEO, media sosial, sampai analisis performa kampanye.</p>
+        <p class="price">Rp350.000 / peserta</p>
+        <p class="promo">Pakai kode MAHASISWA10 diskon 10%</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SE 1: kalkulator -->
+  <section id="calc-section" data-role="SE">
+    <h2>Kalkulator Biaya Pendaftaran</h2>
+    <div class="calc-box">
+      <label for="paket">Pilih Kelas</label>
+      <select id="paket">
+        <option value="125000">Kelas Penulisan Iklan - Rp125.000</option>
+        <option value="175000">Kelas Optimasi Web - Rp175.000</option>
+        <option value="350000">Kelas Pemasar Digital Lengkap - Rp350.000</option>
+      </select>
+
+      <label for="jumlah">Jumlah Peserta</label>
+      <input type="number" id="jumlah" min="1" value="1">
+
+      <label for="promo">Kode Promo</label>
+      <input type="text" id="promo" placeholder="Masukkan kode promo">
+
+      <button id="btn-hitung" onclick="hitung()">Hitung</button>
+
+      <div id="hasil"></div>
+    </div>
+  </section>
+
+  <!-- CEO: footer -->
+  <footer id="footer-section" data-role="CEO">
+    <p>&copy; 2026 PEmasarMUDA. Hak cipta dilindungi.</p>
+    <p>Kelas WebDev B - Kelompok 1</p>
+    <p>Tim: Nama Anggota 1, Nama Anggota 2, Nama Anggota 3, Nama Anggota 4, Nama Anggota 5, Nama Anggota 6</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
